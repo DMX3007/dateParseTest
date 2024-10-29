@@ -1,4 +1,4 @@
-const { parse, parseISO, isValid, format } = require('date-fns');
+const { parse, isValid, format } = require('date-fns');
 const { ru } = require('date-fns/locale');
 
 function cleanDateString(dateString) {
